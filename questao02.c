@@ -20,7 +20,7 @@ int diasDeAulas(Data diaDeHoje, Data ultimoDiaDoSemestre){
 
 int main(){
 
-    Data diaDeHoje = {8, 8, 2023};
+    Data diaDeHoje = {13, 8, 2023};
     Data ultimoDiaDoSemestre = {29, 10, 2023};
 
     int aulasDadas = diasDeAulas(diaDeHoje, ultimoDiaDoSemestre);
